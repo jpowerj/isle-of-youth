@@ -1,0 +1,1 @@
+ESTUDIANTES EXTRANJEROS EN LA ISLA  DE LA JUVENTUD (AÑOS 1977.1996) Autores:. Juan Colina La Rosa. Ofelia Sandrino Rosemond. Jaime Valdivia Fernández. Noelvis Rodríguez Corría. Rodi Candido Irsula Figueredo. Asesor: Dr. Vívino Ortega. AÑO: 2004.

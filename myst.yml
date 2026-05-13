@@ -1,0 +1,44 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: isle-of-youth
+  title: Foreign Students on Cuba's Isle of Youth, 1977-1996
+  # description: "Test"
+  # keywords: []
+  github: jpowerj/isle-of-youth
+  numbering:
+    title: true
+  # numbering:
+  #   title: true
+  #   heading_1: true
+  #   heading_2:
+  #     enabled: true
+  #     # start: 1
+  #   heading_3:
+  #     enabled: true
+  #     # start: 1
+  # downloads:
+  #   - url: static/DeGroot_Schervish_4e.pdf
+  #     filename: "DeGroot_Schervish_4e.pdf"
+  #     title: "PDF Version"
+  #     static: true
+  toc:
+    - file: intro.md
+    - file: 01-africa-pines.md
+    - file: 02-international-education.md
+    - file: 03-africa.md
+    - file: 04-americas.md
+    - file: 05-asia.md
+    - file: 06-fidel.md
+    - file: 07-international-figures.md
+    - file: 08-memoirs.md
+    - file: 09-chronological-history.md
+site:
+  template: book-theme
+  title: Foreign Students on Cuba's Isle of Youth, 1977-1996
+  options:
+    # favicon: favicon.png
+    folders: true
+    logo_text: Foreign Students on Cuba's Isle of Youth, 1977-1996
+    hide_myst_branding: true
+    style: jjbook.css

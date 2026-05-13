@@ -1,0 +1,7 @@
+---
+numbering: false
+---
+
+# Foreign Students on Cuba's Isle of Youth, 1977-1996
+
+Translation of *Estudiantes Extranjeros en la Isla de la Juventud (Años 1977-1996)*, by Juan Colina La Rosa, Ofelia Sandrino Rosemond, Jaime Valdivia Fernández, Noelvis Rodríguez Corría, and Rodi Candido Irsula Figueredo (2004), by Jeff Jacobs, Assistant Teaching Professor of Data Science and Public Policy, Georgetown University.

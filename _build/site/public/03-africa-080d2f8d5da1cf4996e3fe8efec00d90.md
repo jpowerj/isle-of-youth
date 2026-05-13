@@ -1,0 +1,14 @@
+# African Countries
+
+## Mozambique (1985 Data)
+
+## People's Republic of Angola (2004 Data)
+
+## Socialist Ethiopia (1985 Data)
+
+## Namibia (1985 Data)
+
+## Guinea-Bissau (1985 Data)
+
+## Sao Tome and Principe (1985 Data)
+

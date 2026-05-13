@@ -1,0 +1,14 @@
+(sec-4-4)=
+# 4.4 The recursion-tree method for solving recurrences
+
+Although you can use the substitution method to prove that a solution to a recurrence is correct, you might have trouble coming up with a good guess. Drawing
+out a recursion tree, as we did in our analysis of the merge-sort recurrence in Section 2.3.2, can help. In a recursion tree, each node represents the cost of a single
+subproblem somewhere in the set of recursive function invocations. You typically
+sum the costs within each level of the tree to obtain the per-level costs, and then you
+sum all the per-level costs to determine the total cost of all levels of the recursion.
+Sometimes, however, adding up the total cost takes more creativity.
+
+A recursion tree is best used to generate intuition for a good guess, which you can then verify by the substitution method. If you are meticulous when drawing out
+a recursion tree and summing the costs, however, you can use a recursion tree as a
+direct proof of a solution to a recurrence. But if you use it only to generate a good
+guess, you can often tolerate a small amount of "sloppiness," which can simplify the math. When you verify your guess with the substitution method later on, your math should be precise. This section demonstrates how you can use recursion trees to solve recurrences, generate good guesses, and gain intuition for recurrences.

@@ -1,0 +1,22 @@
+# Africa on the Isle of Pines
+
+According to historical accounts, 3,000 years before the Common Era, an advance wave of Neolithic culture reached the Iberian Peninsula. Foremost among these influences was the one originating from Africa, which profoundly impacted agricultural practices, animal domestication, pastoralism, the use of polished stone axes, the development of ceramics, and various other sociocultural aspects. This suggests that the Spanish people carried the first African roots within their very blood and culture.
+
+Men and women born on the African continent began arriving in Cuba at the very onset of colonization, brought there as slaves. In 1510, King Ferdinand authorized the utilization of this labor force within the islands and ordered officials at the *Casa de Contratación* (House of Trade) in Seville to immediately dispatch 50 Africans -- a number that rapidly swelled to 200.
+
+For its part, in 1511, the Church proposed that slaves be shipped from Guinea to Hispaniola to work alongside the indigenous population in the gold mines.
+
+It was in 1514 that the introduction of this African labor force began in earnest, often facilitated through smuggling operations conducted by privateers and pirates; in 1517, the *Gerónimos*[^1] petitioned their Cardinal to authorize the shipment of African slaves to the islands.
+
+The Caribbean emerged as the region of the Americas where ties with Africa developed earliest and most intensely, primarily through the well-known Triangular Trade, thus guaranteeing a steady influx of slaves into various territories across the American continent.
+
+The presence of this specific labor force in Cuba during the 16th century prompted Alonso de Cáceres to dedicate several articles of his ordinances to matters concerning slavery. Number 32, for instance, states:
+
+> *"That no Black captive may carry a sword, a knife, or any other weapon, even when accompanying his master, except at night while in his master's company (and in no other circumstance), or when heading to the fields with his master during the day, under penalty that, for the first offense, he shall forfeit the weapons he is carrying, and for the second offense, he shall forfeit the weapons and receive 20 lashes at the ceiba tree, the pillory, or the jailhouse door.*
+>
+> *Because Black herders and agricultural laborers carry hocking knives, sharpened stakes, skinning knives, and other such weapons, these items shall not be confiscated from them, nor shall they incur any penalty when returning from the fields of their masters' homes to their own dwellings, or when departing to return to the fields or the estate."*[^3]
+
+The enslaved workforce grew steadily, such that by 1774 it numbered 7,538 free and enslaved Black individuals, in addition to 10,000 *bozales* (newly arrived Africans). Between 1805 and 1826, a further 151,300 *bozales* had entered Cuba. The illicit trade in this human merchandise reached its zenith in 1847, when 504,506 of Africa's children were stolen from the continent to be sold in Brazil and the Caribbean islands. In Cuba, the growth of the Black population eventually surpassed that of the white population.
+
+[^2]: Girondins
+[^3]: Pichardo, Hortensia, *Documentos para la Historia de Cuba*, Editorial Ciencias Sociales. La Habana 1980. Tomo 1 página 102.

@@ -1,0 +1,26 @@
+(sec-4-3)=
+# 4.3 The substitution method for solving recurrences
+
+Now that you have seen how recurrences characterize the running times of divide-
+and-conquer algorithms, let’s learn how to solve them. We start in this section
+with the substitution method, which is the most general of the four methods in this
+chapter. The substitution method comprises two steps:
+
+1. Guess the form of the solution using symbolic constants.
+2. Use mathematical induction to show that the solution works, and find the constants.
+
+To apply the inductive hypothesis, you substitute the guessed solution for the function on smaller values4hence the name "substitution method." This method is powerful, but you must guess the form of the answer. Although generating a good
+guess might seem difûcult, a little practice can quickly improve your intuition.
+You can use the substitution method to establish either an upper or a lower bound
+on a recurrence. It’s usually best not to try to do both at the same time. That is,
+rather than trying to prove a ‚-bound directly, ûrst prove an O-bound, and then
+prove an �-bound. Together, they give you a ‚-bound (Theorem 3.1 on page 56).
+As an example of the substitution method, let’s determine an asymptotic upper
+bound on the recurrence:
+T .n/ D 2T .bn=2c/ C ‚.n/ : (4.11)
+This recurrence is similar to recurrence (2.3) on page 41 for merge sort, except
+for the üoor function, which ensures that T .n/ is deûned over the integers. Let’s
+guess that the asymptotic upper bound is the same4T .n/ D O.n lg n/4and use
+the substitution method to prove it.
+We’ll adopt the inductive hypothesis that T .n/ හ cn lg n for all n  n0 , where
+we’ll choose the speciûc constants c > 0 and n0 > 0 later, after we see what

@@ -1,0 +1,22 @@
+# Africa
+
+## Mozambique (1985 Data)
+
+## People's Republic of Angola (2004 Data)
+
+## Socialist Ethiopia (1985 Data)
+
+## Namibia (1985 Data)
+
+## Guinea-Bissau (1985 Data)
+
+## Sao Tome and Principe (1985 Data)
+
+## People's Republic of the Congo (1985 Data)
+
+## Sahrawi Arab Democratic Republic (1985 Data)
+
+## Cape Verde (1985 Data)
+
+## Ghana (1985 Data)
+

@@ -1,0 +1,154 @@
+(sec-1-2)=
+# 1.2 Algorithms as a technology
+
+If computers were infinitely fast and computer memory were free, would you have
+any reason to study algorithms? The answer is yes, if for no other reason than that you would still like to be certain that your solution method terminates and does so
+with the correct answer.
+If computers were inûnitely fast, any correct method for solving a problem
+would do. You would probably want your implementation to be within the bounds
+of good software engineering practice (for example, your implementation should
+be well designed and documented), but you would most often use whichever
+method was the easiest to implement.
+Of course, computers may be fast, but they are not inûnitely fast. Computing
+time is therefore a bounded resource, which makes it precious. Although the saying
+goes, "Time is money," time is even more valuable than money: you can get back money after you spend it, but once time is spent, you can never get it back. Memory may be inexpensive, but it is neither infinite nor free. You should choose algorithms
+that use the resources of time and space efûciently.
+
+Efficiency
+
+Different algorithms devised to solve the same problem often differ dramatically in
+their efûciency. These differences can be much more signiûcant than differences
+due to hardware and software.
+As an example, Chapter 2 introduces two algorithms for sorting. The ûrst,
+known as insertion sort, takes time roughly equal to c 1 n 2 to sort n items, where c 1 is a constant that does not depend on n. That is, it takes time roughly proportional
+to n 2 . The second, merge sort, takes time roughly equal to c 2 n lg n, where lg n
+stands for log 2 n and c 2 is another constant that also does not depend on n. Insertion
+sort typically has a smaller constant factor than merge sort, so that c 1 < c 2 .
+We’ll see that the constant factors can have far less of an impact on the running
+time than the dependence on the input size n. Let’s write insertion sort’s running
+time as c 1 n  n and merge sort’s running time as c 2 n  lg n. Then we see that where
+insertion sort has a factor of n in its running time, merge sort has a factor of lg n,
+which is much smaller. For example, when n is 1000, lg n is approximately 10, and
+when n is 1,000,000, lg n is approximately only 20. Although insertion sort usually
+runs faster than merge sort for small input sizes, once the input size n becomes
+large enough, merge sort’s advantage of lg n versus n more than compensates for
+the difference in constant factors. No matter how much smaller c 1 is than c 2 , there
+is always a crossover point beyond which merge sort is faster.
+1.2 Algorithms as a technology 13
+For a concrete example, let us pit a faster computer (computer A) running insertion
+sort against a slower computer (computer B) running merge sort. They each
+must sort an array of 10 million numbers. (Although 10 million numbers might
+seem like a lot, if the numbers are eight-byte integers, then the input occupies
+about 80 megabytes, which ûts in the memory of even an inexpensive laptop computer
+many times over.) Suppose that computer A executes 10 billion instructions
+per second (faster than any single sequential computer at the time of this writing)
+and computer B executes only 10 million instructions per second (much slower
+than most contemporary computers), so that computer A is 1000 times faster than
+computer B in raw computing power. To make the difference even more dramatic,
+suppose that the world’s craftiest programmer codes insertion sort in machine language
+for computer A, and the resulting code requires 2n 2 instructions to sort n
+numbers. Suppose further that just an average programmer implements merge
+sort, using a high-level language with an inefûcient compiler, with the resulting
+code taking 50 n lg n instructions. To sort 10 million numbers, computer A takes
+2  .10 7 / 2 instructions
+10 10 instructions/second D 20,000 seconds (more than 5:5 hours) ;
+while computer B takes
+50  10 7 lg 10 7 instructions
+10 7 instructions/second  1163 seconds (under 20 minutes) :
+By using an algorithm whose running time grows more slowly, even with a poor
+compiler, computer B runs more than 17 times faster than computer A! The advantage
+of merge sort is even more pronounced when sorting 100 million numbers:
+where insertion sort takes more than 23 days, merge sort takes under four hours.
+Although 100 million might seem like a large number, there are more than 100 million
+web searches every half hour, more than 100 million emails sent every minute,
+and some of the smallest galaxies (known as ultra-compact dwarf galaxies) contain
+about 100 million stars. In general, as the problem size increases, so does the
+relative advantage of merge sort.
+Algorithms and other technologies
+The example above shows that you should consider algorithms, like computer hardware,
+as a technology. Total system performance depends on choosing efûcient
+algorithms as much as on choosing fast hardware. Just as rapid advances are being
+made in other computer technologies, they are being made in algorithms as well.
+You might wonder whether algorithms are truly that important on contemporary
+computers in light of other advanced technologies, such as
+14 Chapter 1 The Role of Algorithms in Computing
+ advanced computer architectures and fabrication technologies,
+ easy-to-use, intuitive, graphical user interfaces (GUIs),
+ object-oriented systems,
+ integrated web technologies,
+ fast networking, both wired and wireless,
+ machine learning,
+ and mobile devices.
+The answer is yes. Although some applications do not explicitly require algorithmic
+content at the application level (such as some simple, web-based applications),
+many do. For example, consider a web-based service that determines how to travel
+from one location to another. Its implementation would rely on fast hardware, a
+graphical user interface, wide-area networking, and also possibly on object orientation.
+It would also require algorithms for operations such as ûnding routes
+(probably using a shortest-path algorithm), rendering maps, and interpolating addresses.
+Moreover, even an application that does not require algorithmic content at the
+application level relies heavily upon algorithms. Does the application rely on fast
+hardware? The hardware design used algorithms. Does the application rely on
+graphical user interfaces? The design of any GUI relies on algorithms. Does the
+application rely on networking? Routing in networks relies heavily on algorithms.
+Was the application written in a language other than machine code? Then it was
+processed by a compiler, interpreter, or assembler, all of which make extensive use
+of algorithms. Algorithms are at the core of most technologies used in contemporary
+computers.
+Machine learning can be thought of as a method for performing algorithmic tasks
+without explicitly designing an algorithm, but instead inferring patterns from data
+and thereby automatically learning a solution. At ûrst glance, machine learning,
+which automates the process of algorithmic design, may seem to make learning
+about algorithms obsolete. The opposite is true, however. Machine learning is
+itself a collection of algorithms, just under a different name. Furthermore, it currently
+seems that the successes of machine learning are mainly for problems for
+which we, as humans, do not really understand what the right algorithm is. Prominent
+examples include computer vision and automatic language translation. For
+algorithmic problems that humans understand well, such as most of the problems
+in this book, efûcient algorithms designed to solve a speciûc problem are typically
+more successful than machine-learning approaches.
+Data science is an interdisciplinary ûeld with the goal of extracting knowledge
+and insights from structured and unstructured data. Data science uses methods
+Problems for Chapter 1 15
+from statistics, computer science, and optimization. The design and analysis of
+algorithms is fundamental to the ûeld. The core techniques of data science, which
+overlap signiûcantly with those in machine learning, include many of the algorithms
+in this book.
+Furthermore, with the ever-increasing capacities of computers, we use them to
+solve larger problems than ever before. As we saw in the above comparison between
+insertion sort and merge sort, it is at larger problem sizes that the differences
+in efûciency between algorithms become particularly prominent.
+Having a solid base of algorithmic knowledge and technique is one characteristic
+that deûnes the truly skilled programmer. With modern computing technology, you
+can accomplish some tasks without knowing much about algorithms, but with a
+good background in algorithms, you can do much, much more.
+
+### Exercises
+
+1.2-1
+Give an example of an application that requires algorithmic content at the application
+level, and discuss the function of the algorithms involved.
+1.2-2
+Suppose that for inputs of size n on a particular computer, insertion sort runs in 8n 2
+steps and merge sort runs in 64 n lg n steps. For which values of n does insertion
+sort beat merge sort?
+1.2-3
+What is the smallest value of n such that an algorithm whose running time is 100n 2
+runs faster than an algorithm whose running time is 2 n on the same machine?
+Problems
+1-1 Comparison of running times
+For each function f .n/ and time t in the following table, determine the largest
+size n of a problem that can be solved in time t , assuming that the algorithm to
+solve the problem takes f .n/ microseconds.
+
+1 1 1 1 1 1 1
+second minute hour day month year century
+lg n
+p
+n
+n
+n lg n
+n 2
+n 3
+2 n
+nŠ
